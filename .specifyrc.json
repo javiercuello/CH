@@ -1,5 +1,5 @@
 {
-  "repository": "@javiercuello/CH",
+  "repository": "@b-reel/CH",
   "base": "master",
   "head": "specify",
   "rules": [
