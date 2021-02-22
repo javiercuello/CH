@@ -1,7 +1,5 @@
 {
   "repository": "@b-reel/Product",
-  "base": "master",
-  "head": "specify",
   "rules": [
 	{
 	  "name": "Design Tokens / Colors",
