@@ -1,0 +1,22 @@
+{
+  "repository": "@javiercuello/CH",
+  "base": "master",
+  "head": "specify",
+  "rules": [
+	{
+	  "name": "Design Tokens / Colors",
+	  "path": "assets/styles/variables/colors.css",
+	  "parsers": [
+		{
+		  "name": "kebabcasify",
+		  "options": {
+			"keys": ["name"]
+		  }
+		},
+		{
+		  "name": "to-css-custom-properties"
+		}
+	  ]
+	}
+  ]
+}
