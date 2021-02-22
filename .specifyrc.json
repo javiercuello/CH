@@ -1,5 +1,5 @@
 {
-  "repository": "@b-reel/CH",
+  "repository": "@b-reel/Product",
   "base": "master",
   "head": "specify",
   "rules": [
