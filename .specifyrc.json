@@ -3,7 +3,7 @@
   "rules": [
     {
       "name": "Design Tokens",
-      "path": "assets/styles/variables.css",
+      "path": "styles/variables.css",
       "filter":{
         "types": ["color", "measurement"]
       },
