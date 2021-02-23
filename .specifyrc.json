@@ -2,8 +2,11 @@
   "repository": "@b-reel/Product",
   "rules": [
 	{
-	  "name": "Design Tokens / Colors",
-	  "path": "assets/styles/variables/colors.css",
+	  "name": "Design Tokens",
+	  "path": "styles/variables.css",
+	  "filter": {
+		"types": ["color", "measurement"]
+	  },
 	  "parsers": [
 		{
 		  "name": "kebabcasify",
@@ -15,6 +18,13 @@
 		  "name": "to-css-custom-properties"
 		}
 	  ]
-	}
+	},
+	{
+	  "name": "Assets",
+	  "path": "assets/",
+	  "filter": {
+	  	"types": ["vector", "bitmap]
+	  }
+    }
   ]
 }
