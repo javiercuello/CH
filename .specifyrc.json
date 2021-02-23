@@ -1,30 +1,17 @@
 {
   "repository": "@b-reel/Product",
   "rules": [
-	{
-	  "name": "Design Tokens",
-	  "path": "styles/variables.css",
-	  "filter": {
-		"types": ["color", "measurement"]
-	  },
-	  "parsers": [
-		{
-		  "name": "kebabcasify",
-		  "options": {
-			"keys": ["name"]
-		  }
-		},
-		{
-		  "name": "to-css-custom-properties"
-		}
-	  ]
-	},
-	{
-	  "name": "Assets",
-	  "path": "assets/",
-	  "filter": {
-	  	"types": ["vector", "bitmap]
-	  }
+    {
+      "name": "Design Tokens",
+      "path": "assets/styles/variables.css",
+      "filter":{
+        "types": ["color", "measurement"]
+      },
+      "parsers": [
+        {
+          "name": "to-css-custom-properties"
+        }
+      ]
     }
   ]
 }
