@@ -1,4 +1,11 @@
 :root {
+  /* MEASUREMENT */
+  --2-xs: 8px;
+  --lg: 40px;
+  --md: 32px;
+  --sm: 24px;
+  --xs: 16px;
+
   /* COLOR */
   --feedback-success: rgb(33, 179, 44);
   --highlight-00: rgb(195, 15, 46);
